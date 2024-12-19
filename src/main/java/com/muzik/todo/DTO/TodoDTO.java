@@ -1,7 +1,10 @@
 package com.muzik.todo.DTO;
 
 import lombok.*;
+
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.regex.Pattern;
 
 @Getter
 @Setter
@@ -19,7 +22,8 @@ public class TodoDTO {
 
     private String b;               // 해야할 일
 
-    private LocalDateTime c;        // 날짜
+    //@DataTimeFormat(Pattern = "yyyy-MM-dd'")
+    private LocalDate c;        // 날짜
 
     private String d;               // 중요도
 

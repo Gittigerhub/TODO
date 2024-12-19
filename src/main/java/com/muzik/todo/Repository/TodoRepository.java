@@ -37,5 +37,5 @@ JPA는 필드명으로 쿼리를 작성해서 데이터베이스를 이용
 Page<엔티티> findBy필드명(변수, Pageable pageable)
 
 *정렬 처리
-
+List<엔티티> findBy필드명(변수, Sort sort)
 */
